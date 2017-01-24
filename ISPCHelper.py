@@ -226,7 +226,7 @@ WantedBy=multi-user.target'''.format(php_path, php_name))
 
 
 def php_menu():
-    php_versions = parse_json('https://raw.githubusercontent.com/SergiX44/ISPCHelper/master/php_versions.json')
+    php_versions = parse_json('https://raw.githubusercontent.com/willy2k69/ISPCHelper/master/php_versions.json')
     
     versions = {}
     i = 1
